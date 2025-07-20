@@ -1,2 +1,7 @@
-# AMD RDNA3 Integrated Graphics Hibernation Patch
-Fix the issue that AMD can't fix for 1 year by disable the GPU before computer went into hibernation mode
+# AMD RDNA3 Integrated Graphics Hibernation Workaround Patch
+Fix a year-old issue by disabling the GPU before the computer enters hibernation.
+
+## Issue Description:
+On systems with AMD Phoenix or Hawk Point APUs and more than 64GB of RAM (e.g., 96GB), the integrated graphics fail after resuming from hibernation.
+
+## List of affected CPUs:
